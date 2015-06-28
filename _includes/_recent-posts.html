@@ -1,0 +1,13 @@
+            <div>
+                <hr>
+              {% for post in site.posts limit:5 %}
+                <li>
+                      <a  href="{{ post.url }}">
+                      <h3 class="title-text">{{ post.title }}</h3>
+                      <p class="body-text">{{ post.date | date: "%d %B %Y" }}</p>
+                      <div class="body-text">{{ post.content |truncatehtml | truncatewords: 45 }}</div>
+                      </a>
+                </li>
+                <hr>
+              {% endfor %}
+            </div> 

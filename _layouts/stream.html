@@ -1,0 +1,33 @@
+<!Doctype html>
+  <html lang="en">
+    <head>
+      {% include _head.html %}
+    </head>
+    <body class="stream">
+      {% include _explorer-upgrade.html %}
+
+     {% include _nav-bar.html %}
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-1"></div>
+
+          <div class="col-md-7">
+          
+            <div class="stream-offset">{% include _twitch-stream.html %}</div>
+
+          </div>
+
+          <div class="col-md-4">
+
+            <div class="">{% include _twitch-chat.html %}</div>
+
+          </div>
+        </div>
+      </div>
+
+      {% include _footer.html %}
+
+    </body>
+  </html>

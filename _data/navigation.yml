@@ -1,0 +1,14 @@
+# when you want to add more pages to the navagation just place them in 
+# here like the other links, Keep in mind the spacing is important!!!
+
+- title: Posts
+  url: /posts/
+
+- title: Videos
+  url: /videos/
+
+- title: Stream
+  url: /Stream/
+
+- title: About
+  url: /about/

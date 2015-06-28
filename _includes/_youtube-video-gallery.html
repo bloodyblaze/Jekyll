@@ -1,0 +1,8 @@
+  {% for link in site.data.video-links %}
+              <div class="col-sm-6 col-md-4 media-offset">
+                  <div class="embed-responsive embed-responsive-16by9 media-border">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/{{link.url}}?theme=light&amp;color=white&amp;autohide=1&amp;controls=2&amp;modestbranding=1" frameborder="0" allowfullscreen></iframe>
+
+                  </div>  
+               </div>
+          {% endfor %}
